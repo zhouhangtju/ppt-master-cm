@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="6" fill="#097FCB"/>
+  <rect x="-105.94" y="206.76" width="58.33" height="42.54" fill="#097FCB"/>
+  <rect x="-105.94" y="255.56" width="58.33" height="42.54" fill="#5B9BD5"/>
+  <rect x="-105.94" y="304.37" width="58.33" height="42.54" fill="#8DCFFA"/>
+  <rect x="-105.94" y="353.18" width="58.33" height="42.54" fill="#E5F1FA"/>
+  <text x="75.41" y="106" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="bold" fill="#1A1A1A">{{PAGE_TITLE}}</text>
+  <rect x="75.41" y="126" width="1144.59" height="58" rx="10" fill="#1565C0"/>
+  <text x="99" y="162" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF">{{PAGE_SUMMARY}}</text>
+  <rect x="75.41" y="208" width="356" height="192" rx="14" fill="#FFFFFF" stroke="#D9E2EC" stroke-dasharray="8 6"/>
+  <rect x="453" y="208" width="356" height="192" rx="14" fill="#FFFFFF" stroke="#D9E2EC" stroke-dasharray="8 6"/>
+  <rect x="831" y="208" width="389" height="192" rx="14" fill="#FFFFFF" stroke="#D9E2EC" stroke-dasharray="8 6"/>
+  <rect x="75.41" y="424" width="356" height="214" rx="14" fill="#FFFFFF" stroke="#D9E2EC" stroke-dasharray="8 6"/>
+  <rect x="453" y="424" width="356" height="214" rx="14" fill="#FFFFFF" stroke="#D9E2EC" stroke-dasharray="8 6"/>
+  <rect x="831" y="424" width="389" height="214" rx="14" fill="#FFFFFF" stroke="#D9E2EC" stroke-dasharray="8 6"/>
+  <text x="253" y="312" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#CBD5E1">{{EVIDENCE_1}}</text>
+  <text x="631" y="312" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#CBD5E1">{{EVIDENCE_2}}</text>
+  <text x="1025.5" y="312" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#CBD5E1">{{EVIDENCE_3}}</text>
+  <text x="253" y="536" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#CBD5E1">{{EVIDENCE_4}}</text>
+  <text x="631" y="536" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#CBD5E1">{{EVIDENCE_5}}</text>
+  <text x="1025.5" y="536" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#CBD5E1">{{EVIDENCE_6}}</text>
+</svg>

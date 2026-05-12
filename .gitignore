@@ -164,8 +164,21 @@ yarn.lock
 TODO.md
 PERSONAL_NOTES.md
 
-# Projects directory - Work-in-progress projects (not version controlled)
-# Completed projects should be moved to examples/
-# Use cloud sync (iCloud/Dropbox) for backup and multi-device access
+# PPT generated project workspaces and export artifacts
+# Keep the folder itself plus the README, but ignore all generated deck projects.
+# This prevents local AI-generated projects, SVGs, notes, backups, and exported
+# PPTX files under projects/ from being pushed by accident.
 projects/*
+!projects/
 !projects/README.md
+
+# Example decks can be large; keep the folder/README but ignore example contents.
+examples/*
+!examples/
+!examples/README.md
+
+# Extra safety for generated presentation outputs anywhere in the repo.
+backup/
+exports/
+svg_final/
+svg_output/

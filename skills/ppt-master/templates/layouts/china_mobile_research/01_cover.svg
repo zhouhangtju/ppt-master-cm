@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="leftBand" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E88D8"/>
+      <stop offset="100%" stop-color="#1E59B7"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00B4D8"/>
+      <stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="720" fill="#F7FAFD"/>
+  <rect x="0" y="0" width="392" height="720" fill="url(#leftBand)"/>
+  <rect x="392" y="0" width="8" height="720" fill="#0F6CBD"/>
+  <rect x="0" y="0" width="1280" height="8" fill="url(#accentLine)"/>
+
+  <rect x="62" y="84" width="220" height="46" rx="8" fill="#FFFFFF" fill-opacity="0.16" stroke="#FFFFFF" stroke-opacity="0.55"/>
+  <text x="172" y="114" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF">中国移动研究模板</text>
+
+  <rect x="470" y="120" width="148" height="32" rx="16" fill="#E6F4FF"/>
+  <text x="544" y="142" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#1565C0">TECHNICAL RESEARCH</text>
+
+  <text x="470" y="224" font-family="Microsoft YaHei, SimHei, sans-serif" font-size="40" font-weight="bold" fill="#1F2937">{{TITLE}}</text>
+  <text x="470" y="280" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" fill="#1E59B7">{{SUBTITLE}}</text>
+  <line x1="470" y1="308" x2="960" y2="308" stroke="#1E88D8" stroke-width="4"/>
+
+  <rect x="470" y="344" width="682" height="106" rx="14" fill="#FFFFFF" stroke="#D7E3F1" stroke-width="2"/>
+  <text x="500" y="380" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#1565C0">核心判断</text>
+  <text x="500" y="421" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#1F2937">{{SUMMARY}}</text>
+
+  <rect x="470" y="500" width="282" height="108" rx="12" fill="#FFFFFF" stroke="#D7E3F1"/>
+  <text x="496" y="536" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#6B7280">汇报人</text>
+  <text x="496" y="576" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2937">{{PRESENTER}}</text>
+
+  <rect x="776" y="500" width="376" height="108" rx="12" fill="#FFFFFF" stroke="#D7E3F1"/>
+  <text x="804" y="536" font-family="Microsoft YaHei, Arial, sans-serif" font-size="15" fill="#6B7280">单位 / 日期</text>
+  <text x="804" y="576" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1F2937">{{ORGANIZATION}}</text>
+  <text x="804" y="604" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#1E59B7">{{DATE}}</text>
+
+  <rect x="62" y="486" width="268" height="146" rx="18" fill="#FFFFFF" fill-opacity="0.14" stroke="#FFFFFF" stroke-opacity="0.4"/>
+  <text x="94" y="534" font-family="Arial, sans-serif" font-size="18" fill="#D9EEFF">REPORT CODE</text>
+  <text x="94" y="574" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF">{{ORG_SHORT}}</text>
+  <text x="94" y="612" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#D9EEFF">技术研究 / 内部汇报 / 结论先行</text>
+
+  <text x="76" y="686" font-family="Microsoft YaHei, Arial, sans-serif" font-size="12" fill="#D9EEFF">China Mobile style research template for PPT Master</text>
+  <text x="1216" y="686" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">01</text>
+</svg>

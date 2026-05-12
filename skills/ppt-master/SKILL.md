@@ -77,6 +77,7 @@ For complete tool documentation, see `${SKILL_DIR}/scripts/README.md`.
 | `create-template` | `workflows/create-template.md` | Standalone template creation workflow |
 | `resume-execute` | `workflows/resume-execute.md` | Phase B entry — resume execution in a fresh chat after Phase A (Step 1–5) completed in another session (split mode) |
 | `verify-charts` | `workflows/verify-charts.md` | Chart coordinate calibration — run after SVG generation if the deck contains data charts |
+| `verify-layout-density` | `workflows/verify-layout-density.md` | Layout density verification — run after SVG generation when dense reporting pages look sparse, top-heavy, or structurally weak |
 | `visual-edit` | `workflows/visual-edit.md` | Browser-based visual editor for fine-grained edits — run only when the user explicitly requests it after export |
 
 ---
@@ -309,6 +310,8 @@ python3 ${SKILL_DIR}/scripts/svg_quality_checker.py <project_path>
 ```
 
 > **Chart pages?** If this deck contains data charts (bar / line / pie / radar / etc.), run the standalone [`verify-charts`](workflows/verify-charts.md) workflow before Step 7 to calibrate coordinates. AI models routinely introduce 10–50 px errors when mapping data to pixel positions; verify-charts eliminates that class of error. Skip if no chart pages.
+>
+> **Dense internal-report pages?** If this deck targets China Mobile-style dense reporting, or if generated pages look top-heavy / bottom-empty / structurally weak, run the standalone [`verify-layout-density`](workflows/verify-layout-density.md) workflow before Step 7. It corrects sparse lower halves, weak card layouts, and missing page-level judgments. Skip if the page structure is already strong.
 
 ---
 

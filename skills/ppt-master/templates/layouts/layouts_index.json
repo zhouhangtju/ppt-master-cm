@@ -69,6 +69,64 @@
       "04_ending"
     ]
   },
+  "china_mobile_construction": {
+    "label": "China Mobile Project Construction Template",
+    "summary": "For China Mobile project construction plans, feasibility presentations, investment request decks, and internal scheme briefings.",
+    "keywords": [
+      "China Mobile",
+      "中移",
+      "project construction",
+      "structured",
+      "internal reporting"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
+  },
+  "china_mobile_progress": {
+    "label": "China Mobile Project Progress Template",
+    "summary": "For China Mobile project progress reports, milestone reviews, coordination briefings, and internal status updates.",
+    "keywords": [
+      "China Mobile",
+      "中移",
+      "project progress",
+      "milestone",
+      "internal reporting"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "04_ending"
+    ]
+  },
+  "china_mobile_research": {
+    "label": "China Mobile Technical Research Template",
+    "summary": "For China Mobile technical research reports, model evaluations, technology trend studies, solution research, and internal capability briefings.",
+    "keywords": [
+      "China Mobile",
+      "中国移动",
+      "中移",
+      "technical research",
+      "internal reporting"
+    ],
+    "pages": [
+      "01_cover",
+      "02_chapter",
+      "02_toc",
+      "03_content",
+      "03a_content_evidence",
+      "03b_content_compare",
+      "03c_content_architecture",
+      "03d_content_case_grid",
+      "04_ending"
+    ]
+  },
   "exhibit": {
     "label": "Exhibit Style Template",
     "summary": "For Strategic planning, executive reports, investment analysis, board presentations.",

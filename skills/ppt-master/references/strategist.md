@@ -12,6 +12,32 @@ As a top-tier AI presentation strategist, receive source documents, perform cont
 
 ---
 
+## China Mobile Style Branch
+
+When the user explicitly asks for China Mobile style, operator internal reporting style, or the deck clearly targets China Mobile-style internal reporting, load the China Mobile branch before finalizing recommendations.
+
+Read order:
+
+1. `references/report-types-cm/design-language.md`
+2. matching file under `references/report-types-cm/`:
+   - `technical-research.md`
+   - `project-construction.md`
+   - `project-progress.md`
+3. if the report type is `technical_research` and contains Chapter 6 "应用与落地", also read `references/report-types-cm/application-commercialization-method.md`
+
+Effects of this branch:
+
+- favor dense, structured, judgment-visible pages
+- recommend the matching China Mobile template when suitable:
+  - `china_mobile_research`
+  - `china_mobile_construction`
+  - `china_mobile_progress`
+- prefer the China Mobile page-pattern vocabulary for per-page planning
+
+This is a style/reporting-domain branch, not a separate pipeline. Keep the same Eight Confirmations and downstream execution contract.
+
+---
+
 ## Canvas Format Quick Reference
 
 > See [`canvas-formats.md`](canvas-formats.md) for the full format table (presentations / social / marketing) and the format-selection decision tree.

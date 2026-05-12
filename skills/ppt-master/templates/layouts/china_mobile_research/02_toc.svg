@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="6" fill="#097FCB"/>
+
+  <rect x="0" y="0" width="320" height="720" fill="#F3F8FD"/>
+  <rect x="36" y="96" width="210" height="46" rx="10" fill="#097FCB"/>
+  <text x="141" y="126" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="20" fill="#FFFFFF">目录 / CONTENTS</text>
+
+  <rect x="42" y="198" width="18" height="42" rx="6" fill="#097FCB"/>
+  <rect x="42" y="248" width="18" height="42" rx="6" fill="#5B9BD5"/>
+  <rect x="42" y="298" width="18" height="42" rx="6" fill="#8DCFFA"/>
+  <rect x="42" y="348" width="18" height="42" rx="6" fill="#E5F1FA"/>
+
+  <text x="92" y="244" font-family="Microsoft YaHei, Arial, sans-serif" font-size="42" font-weight="bold" fill="#097FCB">目录</text>
+  <text x="92" y="280" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#5B6B7F">技术调研报告结构总览</text>
+
+  <rect x="356" y="84" width="858" height="566" rx="22" fill="#F7FAFD" stroke="#D9E2EC"/>
+
+  <circle cx="408" cy="152" r="26" fill="#097FCB"/>
+  <text x="408" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">1</text>
+  <text x="452" y="146" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1F2937">{{TOC_ITEM_1_TITLE}}</text>
+  <text x="452" y="172" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#5B6B7F">{{TOC_ITEM_1_DESC}}</text>
+
+  <circle cx="408" cy="236" r="26" fill="#097FCB"/>
+  <text x="408" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">2</text>
+  <text x="452" y="230" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1F2937">{{TOC_ITEM_2_TITLE}}</text>
+  <text x="452" y="256" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#5B6B7F">{{TOC_ITEM_2_DESC}}</text>
+
+  <circle cx="408" cy="320" r="26" fill="#097FCB"/>
+  <text x="408" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">3</text>
+  <text x="452" y="314" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1F2937">{{TOC_ITEM_3_TITLE}}</text>
+  <text x="452" y="340" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#5B6B7F">{{TOC_ITEM_3_DESC}}</text>
+
+  <circle cx="408" cy="404" r="26" fill="#097FCB"/>
+  <text x="408" y="412" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">4</text>
+  <text x="452" y="398" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1F2937">{{TOC_ITEM_4_TITLE}}</text>
+  <text x="452" y="424" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#5B6B7F">{{TOC_ITEM_4_DESC}}</text>
+
+  <circle cx="408" cy="488" r="26" fill="#097FCB"/>
+  <text x="408" y="496" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">5</text>
+  <text x="452" y="482" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1F2937">{{TOC_ITEM_5_TITLE}}</text>
+  <text x="452" y="508" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#5B6B7F">{{TOC_ITEM_5_DESC}}</text>
+
+  <circle cx="408" cy="572" r="26" fill="#097FCB"/>
+  <text x="408" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF">6</text>
+  <text x="452" y="566" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="bold" fill="#1F2937">{{TOC_ITEM_6_TITLE}}</text>
+  <text x="452" y="592" font-family="Microsoft YaHei, Arial, sans-serif" font-size="14" fill="#5B6B7F">{{TOC_ITEM_6_DESC}}</text>
+
+  <text x="1216" y="686" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">02</text>
+</svg>

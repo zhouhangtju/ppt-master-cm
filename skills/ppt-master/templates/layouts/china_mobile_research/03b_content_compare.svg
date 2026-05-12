@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1280" height="6" fill="#097FCB"/>
+  <text x="75.41" y="106" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="bold" fill="#1A1A1A">{{PAGE_TITLE}}</text>
+  <rect x="75.41" y="126" width="1144.59" height="58" rx="10" fill="#1565C0"/>
+  <text x="99" y="162" font-family="Microsoft YaHei, Arial, sans-serif" font-size="18" fill="#FFFFFF">{{PAGE_SUMMARY}}</text>
+  <rect x="75.41" y="208" width="780" height="430" rx="14" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="2" stroke-dasharray="8 6"/>
+  <rect x="879" y="208" width="341" height="206" rx="14" fill="#F7FAFD" stroke="#D9E2EC" stroke-dasharray="8 6"/>
+  <rect x="879" y="432" width="341" height="206" rx="14" fill="#F7FAFD" stroke="#D9E2EC" stroke-dasharray="8 6"/>
+  <text x="465.41" y="432" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#CBD5E1">{{COMPARE_TABLE}}</text>
+  <text x="1049.5" y="320" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#CBD5E1">{{VERDICT_1}}</text>
+  <text x="1049.5" y="544" text-anchor="middle" font-family="Microsoft YaHei, Arial, sans-serif" font-size="16" fill="#CBD5E1">{{VERDICT_2}}</text>
+</svg>
